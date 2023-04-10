@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+    <style>
+        body {
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/561/322/325/squirtle-simple-background-minimalism-pokemon-wallpaper-preview.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="margin: 0 auto; margin-top: 150px;">
+        <tr>
+            <td>
+                <div id="zona">
+                    <form id="formu">
+                        <fieldset>
+                            <legend>SEU CADASTRO</legend>
+
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Preencha aqui"><br />
+                            <label for="nome">ID Mestre:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Preencha aqui"><br />
+                            <label for="tipo">Região de Atuação</label>
+                            <select name="regiao" id="regiao">
+                                <option value="Região de Atuação">Kanto</option>
+                                <option value="Região de Atuação">Johto</option>
+                                <option value="Região de Atuação">Hoenn</option>
+                                <option value="Região de Atuação">Sinnoh</option>
+                                <option value="Região de Atuação">Unova</option>
+                                <option value="Região de Atuação">Kalos</option>
+                            </select><br/>
+                            <input type="button" value="CADASTRAR" class="cadastro">
+                        </fieldset>
+                        
+                    </form>
+                </div>
+            </td>
+            <td>
+                <div id="zona">
+                    <form id="formu">
+                        <fieldset>
+                            <legend>SEU LOGIN</legend>
+
+                            <label for="nome">ID Mestre</label>
+                            <input type="text" name="nome" id="nome" placeholder="Preencha aqui"><br/>
+                            <label for="password">Senha</label>
+                            <input type="password" id="password" placeholder="Preencha aqui"><br/>
+                            <input type="button" value="LOGIN" class="login">
+                        </fieldset>
+                        
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+      <a style="display: block;" href="../VSCode Aula2/HomePok.html">Voltar à página inicial</a>
+</body>
+</html>
