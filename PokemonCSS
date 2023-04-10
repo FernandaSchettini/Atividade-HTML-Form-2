@@ -1,0 +1,60 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    font-size: xx-large;
+}
+
+#area {
+    font-size: x-large;
+    position: relative;
+    width: 700px;
+}
+#zona {
+    font-size: x-large;
+    position: relative;
+    width: 700px;
+}
+
+#area #formulario {
+    display: block;
+}
+
+#zona #formu {
+    display: block;
+}
+
+fieldset {
+    width: 500px;
+}
+input, select {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 20px;
+}
+label{
+    font-size:110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 0 auto;
+
+}
+legend{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 220%;
+}
+input.cadastro{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 155px;
+    height: 45px;
+}
+input.login{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 155px;
+    height: 45px;
+}a.inicial{
+    top: 10%;
+    right:40px;
+}
