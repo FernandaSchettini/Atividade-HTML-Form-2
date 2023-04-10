@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clientes</title>
+    <link rel="stylesheet" href="style3.css" type="text/css">
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/vetores-premium/abstrato-azul-com-conceito-de-fundo-de-onda-gradiente-de-forma-redonda-minima_678630-1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="area">
+        <form id="formulario">
+            <fieldset>
+                <legend>CADASTRO CLIENTES</legend>
+
+                <label for="Checkbox">Particular</label>
+                <input type="checkbox" name="checkbox" id="checkbox"><br/>
+                <label for="nome">Nome da Oportunidade</label>
+                <input type="text" name="nome" id="nome"><br/>
+                <label for="valor">Valor</label>
+                <input type="number" name="valor" id="valor"><br/>
+                <label for="fase">Fase</label><br/>
+                <select name="fase" id="fase">
+                    <option value="Prospecting">Prospecting</option>
+                    <option value="Qualification">Qualification</option>
+                    <option value="Needs Analysis">Needs Analysis</option>
+                    <option value="Value Proposition">Value Proposition</option>
+                    <option value="Id. Decision Makers">Id. Decision Makers</option>
+                    <option value="Perception Analysis">Perception Analysis</option>
+                    <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+                    <option value="Negotiation/Review">Negotiation/Review</option>
+                    <option value="Closed Won">Closed Won</option>
+                    <option value="Closed Lost">Closed Lost</option>
+                </select><br/>
+                <label for="tipo">Tipo</label><br/>
+                <select name="tipo" id="tipo">
+                    <option value="Existing Customer - Upgrade">Existing Customer - Upgrade</option>
+                    <option value="Existing Customer - Replacement">Existing Customer - Replacement</option>
+                    <option value="Existing Customer - Downgrade">Existing Customer - Downgrade</option>
+                    <option value="New Customer">New Customer</option>
+                </select><br/>
+            </fieldset>
+
+            <input type="button" value="CADASTRAR" class="cadastro">
+        </form>
+
+    </div>
+
+</body>
+
+</html>
