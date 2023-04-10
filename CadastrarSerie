@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <link rel="stylesheet" href="style4.css" type="text/css">
+
+    <title>Series Favoritas</title>
+    <style>
+        body {
+            background-image: url(https://static4.depositphotos.com/1007566/435/i/600/depositphotos_4355137-stock-photo-lines.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+    </style>
+</header>
+
+<body>
+    <div id="area">
+        <form id="formulario">
+            <fieldset>
+                <legend>SÉRIES FAVORITAS</legend>
+                <label for="nome">Seu Nome</label>
+                <input type="text" name="nome" id="nome"><br />
+                <label for="email">Seu Email</label>
+                <input type="email" name="email" id="email"><br />
+                <label for="tipo">Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="Tipo">Série</option>
+                    <option value="Tipo">Filme</option>
+                </select><br />
+                <label for="nome">Nome Filme/Série</label>
+                <input type="text" name="nome" id="nome"><br />
+                <label for="nome">Tem algum link do trailler?</label>
+                <input type="url" name="nome" id="nome"><br />
+                <input type="submit" value="ENVIAR" class="btn" style="border: 1px solid #003; padding: 10px 15px; text-decoration: none; background-color: rgb(129, 49, 49); color: rgb(239, 239, 239)">
+            </fieldset>
+            
+        </form>
+    </div>
+    <a style="color: rgb(196, 96, 9);" href="../VSCode Aula2/FilmesFavoritos.html">Voltar à página inicial</a>
+</body>
+
+</html>
