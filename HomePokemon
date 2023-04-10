@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mestre Pokemons</title>
+    <link rel="stylesheet" href="style2.css" type="text/css">
+    <style>
+        body{
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/561/322/325/squirtle-simple-background-minimalism-pokemon-wallpaper-preview.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        } 
+    </style>
+</head>
+<body>
+    <h1> PRONTOS PARA CAPTURAR POKEMONS???</h1><br/><br/><br/><br/>
+    <a href="../VSCode Aula2/CdastroeLogin.html"><img src="https://www.pngall.com/wp-content/uploads/5/Pokemon-Go-Logo-PNG-Download-Image.png" width="500"></a>
+</body>
+</html>
